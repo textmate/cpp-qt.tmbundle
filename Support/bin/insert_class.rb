@@ -8,6 +8,7 @@ q_object = ARGV.find { |a| a == "q_object" }
 if q_object
   input = $stdin.readlines
   input.insert(1, "\tQ_OBJECT")
+  input.insert(2, "\n")
 
   found_include = false
   include_file = nil
@@ -53,11 +54,11 @@ end
 
 r << "class \${1:ClassName} : public \${2:QObject}"
 r << "{"
-r << "public:"
-r << "	\${1}(\${3:QObject *parent = 0});"
-r << "	~\${1}();"
+r << "  public:"
+r << "	  \${1}(\${3:QObject *parent = 0});"
+r << "	  ~\${1}();"
 r << ""
-r << "private:"
+r << "  private:"
 r << "};\${9: [press tab twice to generate Q_OBJECT]}"
 
 print r.join("\n")
