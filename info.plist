@@ -20,6 +20,8 @@
 			<string>AAAD64D1-8C69-4645-853E-B6DD3D04AC67</string>
 			<string>22F431D0-0CB5-4CAB-951F-8C0E7396891F</string>
 			<string>------------------------------------</string>
+			<string>82073EA0-7D10-4A6C-AF49-54B29FA3AF1E</string>
+			<string>------------------------------------</string>
 			<string>3FE38320-EB78-4AE7-A607-B1AB43AD813C</string>
 			<string>E67FC7C6-B1EB-411B-A6D3-BC1078FD859F</string>
 			<string>460AF393-91E6-4626-8A69-61352495D46A</string>
@@ -79,6 +81,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>DDDE4415-9B12-4F03-81CE-CB9ACA62CFD2</string>
 					<string>D05EDFB2-D456-420B-87EB-BD4CBEDAA58E</string>
 					<string>84CF7C01-9208-453D-8254-DCD17D0A7500</string>
 					<string>466A5E55-F2E9-4542-8CE7-5799B4DC9BF8</string>
@@ -94,6 +97,7 @@
 					<string>------------------------------------</string>
 					<string>C4517F03-DB1A-434E-BF29-F13DA337B20F</string>
 					<string>97D13B6C-9CC2-4CAD-8CD3-80DC9CBC1968</string>
+					<string>CC1A1191-7451-4806-B326-459416C8894A</string>
 				</array>
 				<key>name</key>
 				<string>Insert</string>
