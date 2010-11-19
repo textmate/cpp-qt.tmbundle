@@ -10,7 +10,7 @@
 # there are multiple matches, there's an option
 # to select one of them.
 
-${TM_RUBY:-ruby} "$TM_BUNDLE_SUPPORT/bin/search.rb"</string>
+ruby "$TM_BUNDLE_SUPPORT/bin/search.rb"</string>
 	<key>fallbackInput</key>
 	<string>word</string>
 	<key>input</key>

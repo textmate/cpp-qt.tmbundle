@@ -10,7 +10,7 @@
 # each displayed method, and then displaying an
 # option to pick one of them using text box.
 
-${TM_RUBY:-ruby} "$TM_BUNDLE_SUPPORT/bin/search.rb" fuzzy</string>
+ruby "$TM_BUNDLE_SUPPORT/bin/search.rb" fuzzy</string>
 	<key>fallbackInput</key>
 	<string>word</string>
 	<key>input</key>

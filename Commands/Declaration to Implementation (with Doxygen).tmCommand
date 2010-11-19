@@ -15,7 +15,7 @@
 # It's possible to override Doxygen placeholders
 # after specifying name of the class.
 
-${TM_RUBY:-ruby} "$TM_BUNDLE_SUPPORT/bin/declaration_to_implementation.rb" doxygen</string>
+ruby "$TM_BUNDLE_SUPPORT/bin/declaration_to_implementation.rb" doxygen</string>
 	<key>fallbackInput</key>
 	<string>line</string>
 	<key>input</key>
