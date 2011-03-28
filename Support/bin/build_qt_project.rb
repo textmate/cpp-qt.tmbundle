@@ -187,7 +187,7 @@ class Formatter
 
       def borrow_xcode_icon(icon_name, background=false)
         image(  :class => background ? "backgroundicon" : "icon",
-            :src => "file:///System/Library/PrivateFrameworks/DevToolsInterface.framework/Versions/A/Resources/#{icon_name}" )
+            :src => "file:///Developer/Library/PrivateFrameworks/DevToolsInterface.framework/Versions/A/Resources/#{icon_name}" )
       end
 
       def div_stack
@@ -427,11 +427,11 @@ public
     cssclass = cssclass.downcase
     cssclass, icon = case cssclass
       when "", "error"
-        ["error", "PBXBuildErrorIcon.tiff"]
+        ["error", "XCBuildErrorIcon.tiff"]
       when "message", "info"
         ["info", "globe.tiff"]
       when "warning"
-        ["warning", "PBXBuildWarningIcon.tiff"]
+        ["warning", "XCBuildWarningIcon.tiff"]
       else
         [cssclass, "globe.tiff"]
     end
@@ -462,7 +462,7 @@ public
   def failure
     @mup.new_div!("error", "", :show) do
        @mup.h2 do
-        @mup.borrow_xcode_icon("PBXBuildErrorIcon.tiff")
+        @mup.borrow_xcode_icon("XCBuildErrorIcon.tiff")
         @mup.text("Build Failed")
       end
     end
