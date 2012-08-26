@@ -31,7 +31,7 @@ def close_browser
 end
 
 def redirect(url)
-  puts "<meta http-equiv='Refresh' content='0;URL=tm-file://#{url}'>"
+  puts "<meta http-equiv='Refresh' content='0;URL=file://#{url}'>"
 end
 
 do_fuzzy = ARGV.find { |a| a == "fuzzy" }
