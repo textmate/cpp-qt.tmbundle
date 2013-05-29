@@ -4,7 +4,7 @@ class Runner
       raise "No Makefile found in #{dir}."
     end
 
-    if not File.readlines("#{dir}/Makefile").find { |i| i =~ /^TARGET\s+\=\s+([^\s][\w\.\/\s]+)\s*$/ }
+    if not File.readlines("#{dir}/Makefile").find { |i| i =~ /^TARGET\s+\=\s+([^\s][\w\-\.\/\s]+)\s*$/ }
       raise "Unable to find TARGET in #{dir}/Makefile."
     end
 
