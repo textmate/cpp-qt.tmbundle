@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
 
 require ENV['TM_BUNDLE_SUPPORT'] + "/bin/find_qt_project"
 require ENV['TM_BUNDLE_SUPPORT'] + "/lib/run_helper"

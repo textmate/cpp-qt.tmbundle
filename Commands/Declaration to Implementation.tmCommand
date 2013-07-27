@@ -11,7 +11,7 @@
 # Could be applied to bunch of methods in
 # selection.
 
-ruby "$TM_BUNDLE_SUPPORT/bin/declaration_to_implementation.rb"</string>
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby "$TM_BUNDLE_SUPPORT/bin/declaration_to_implementation.rb"</string>
 	<key>fallbackInput</key>
 	<string>line</string>
 	<key>input</key>

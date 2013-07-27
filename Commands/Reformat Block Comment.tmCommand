@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby
+	<string>#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
 # By Allan Odgaard: 
 # http://macromates.com/blog/archives/2006/04/12/customization-screencast/
 

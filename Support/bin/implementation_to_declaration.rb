@@ -1,4 +1,4 @@
-#! /usr/bin/env ruby
+#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
 require ENV['TM_BUNDLE_SUPPORT'] + '/lib/rails_bundle_tools'
 require ENV['TM_BUNDLE_SUPPORT'] + '/lib/ctags'
 require ENV['TM_BUNDLE_SUPPORT'] + '/lib/common'
