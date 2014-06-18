@@ -1,4 +1,4 @@
-#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
+#!/usr/bin/env ruby18
 require ENV['TM_BUNDLE_SUPPORT'] + '/lib/rails_bundle_tools'
 
 # NOTE: In order to use this script, you must 

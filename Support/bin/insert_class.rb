@@ -1,4 +1,4 @@
-#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby
+#!/usr/bin/env ruby18
 require ENV['TM_BUNDLE_SUPPORT'] + '/lib/rails_bundle_tools'
 
 # TODO: camel-case the file name. So 'foo_bar.h' would name the class as 'FooBar'
